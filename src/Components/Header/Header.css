@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Netflix Sans";
+  src: local("Netflix Sans"),
+    url("../../assets/fonts/netflix-sans-font/NetflixSans-Bold.woff2")
+      format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Netflix Sans";
+  src: local("Netflix Sans"),
+    url("../../assets/fonts/netflix-sans-font/NetflixSans-Light.woff2")
+      format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Netflix Sans";
+  src: local("Netflix Sans"),
+    url("../../assets/fonts/netflix-sans-font/NetflixSans-Medium.woff2")
+      format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Netflix Sans";
+  src: local("Netflix Sans"),
+    url("../../assets/fonts/netflix-sans-font/NetflixSans-Regular.woff2")
+      format("truetype");
+  font-weight: bold;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  border: none;
+  background: #e50914;
+  border-radius: 3px;
+  color: #fff;
+  padding: 7px 16px;
+  font-family: "Netflix Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.btn-subscribe {
+}
