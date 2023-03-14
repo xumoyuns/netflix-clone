@@ -12,6 +12,7 @@ function App() {
       <Header></Header>
       <Hero></Hero>
       </div>
+      
     </div>
   );
 }

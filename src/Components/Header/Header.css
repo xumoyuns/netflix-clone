@@ -31,20 +31,25 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  /* padding-top: 8px */
+  padding: 12px 15px 0 10px;
+  margin-bottom: 165px;
 }
-
+.logo {
+  margin-left: 3%;
+}
 .btn {
   border: none;
   background: #e50914;
-  border-radius: 3px;
   color: #fff;
-  padding: 7px 16px;
   font-family: "Netflix Sans";
   font-style: normal;
+}
+.header-btn {
+  border-radius: 3px;
+  letter-spacing: 1px;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  color: #ffffff;
-}
-.btn-subscribe {
+  padding: 7px 16px;
 }

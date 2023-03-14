@@ -6,10 +6,10 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo">
-        <img src={logo} alt="" width="" height="" />
+        <img src={logo} alt="NETFLIX logo" width="167" height="45" />
       </div>
       <nav>
-        <button className="btn ">Sign In</button>
+        <button className="btn header-btn">Sign In</button>
       </nav>
     </header>
   );
